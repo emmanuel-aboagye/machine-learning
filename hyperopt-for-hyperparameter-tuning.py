@@ -16,7 +16,6 @@ from sklearn.linear_model import LinearRegression
 from sklearn.impute import KNNImputer
 from tensorflow.keras.layers import LeakyReLU
 from tensorflow.keras.initializers import GlorotUniform, GlorotNormal, HeNormal
-#from keras.regularizers import l1_l2
 from hyperopt import hp, fmin, tpe, Trials, STATUS_OK, space_eval
 from hyperopt.pyll.base import scope
 
