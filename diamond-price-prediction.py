@@ -1,7 +1,4 @@
-# -*- coding: utf-8 -*-
 """
-Created on Sat Jul  8 21:43:38 2023
-
 @author: aboag
 """
 #%% import packages
@@ -265,4 +262,7 @@ xgboost regression
 
 Linear regression is predicting negative values for the price, hence model doesn't make sense. Don't 
 use linear regression. 
+
+You can go ahead and develop a model using RandomForestRegressor, and tune some hyperparameters of the model.
+
 """
