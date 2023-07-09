@@ -257,12 +257,14 @@ plt.show()
 #%%
 
 """
-From the results random forest regression does better than both linear regression and 
+From the results, random forest regression does better than both linear regression and 
 xgboost regression
 
 Linear regression is predicting negative values for the price, hence model doesn't make sense. Don't 
 use linear regression. 
 
-You can go ahead and develop a model using RandomForestRegressor, and tune some hyperparameters of the model.
+Feature importance plot indicates "caret" size has the highest influence on the price (not surprising!). Premium cut, G color, 
+Clarities SI1, SI2, VS1, and VS2 are the only features that have positive permutation importance on the model 
 
+Therefore, you can go ahead and develop a model for RandomForestRegressor using those features, and tune some hyperparameters of the model, if needed.
 """
