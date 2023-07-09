@@ -199,8 +199,7 @@ def plot_results(model_fitted, rmse, r_squared, label_train, label_train_pred , 
         print("Error: incorrect input, plot_type has to be either 'bar' or 'scatter'")
 
 #%% import data
-
-path = "C:/Users/aboag/Files for GitHub/machine-learning/archive/Diamonds Prices2022.csv"
+path = "Diamonds Prices2022.csv"
 df = import_data(path)
 
 #%% Data preprocessing 
