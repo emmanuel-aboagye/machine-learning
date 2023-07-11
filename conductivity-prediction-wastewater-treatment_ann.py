@@ -111,7 +111,7 @@ def plot_results(label_train,label_train_pred,label_val,label_val_pred,label_tes
     plt.show()
     
 #%% Import data
-path = 'C:/Users/aboag/Files for GitHub/machine-learning/water+treatment+plant/water-treatment.data'
+path = 'water-treatment.data'
 data = import_data(path)
 
 #%% Organze data into features and label
@@ -234,5 +234,5 @@ plt.show()
 '''
 Ideally, you would want to tune your model first and then create the architechture from the optimized hyperparamters
 
-You can also refit on the model using the, probably, top 5 features with the highest importances. 
+You can also refit the model using the, probably, top 5 features with the highest importances. 
 '''
