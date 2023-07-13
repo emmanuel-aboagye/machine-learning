@@ -208,7 +208,7 @@ res_df = rename_cols(res_df)
 res_df = outlier_removal(res_df)
 
 #%% split data into train-test
-features_set = feature_set = res_df.drop(['price'], axis=1)
+features_set = res_df.drop(['price'], axis=1)
 label_set = res_df['price']
 feature_train, _ , feature_test, label_train, _ , label_test = split_data(features_set, label_set, split=0.2, rs=42, val_split=False)
 
